@@ -2,7 +2,7 @@
   "name": "programming-for-data-science-and-ai",
   "version": "1.0.0",
   "description": "",
-  "main": "API.js"
+  "main": "API.js",
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
