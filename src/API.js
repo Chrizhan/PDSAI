@@ -13,11 +13,11 @@ async function fetchEntityNameEntities() {
 
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
+API.get('/', (req, res) => {
     res.send('Hello, Render!');
 });
 
-app.listen(PORT, () => {
+API.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
 
