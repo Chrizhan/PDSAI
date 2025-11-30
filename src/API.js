@@ -11,6 +11,9 @@ async function fetchEntityNameEntities() {
     console.log(data);
 }
 
+const express = require('express');
+const API = express();
+
 const PORT = process.env.PORT || 3000;
 
 API.get('/', (req, res) => {
